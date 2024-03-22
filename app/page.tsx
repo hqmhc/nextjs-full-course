@@ -1,7 +1,20 @@
+import React from 'react';
+
+const Home: React.FC = () => {
 
 
-const Home = () => {
-  throw new Error("Error in Home Page");
-};
 
-export default Home;
+  return (
+    <div>
+      Homepage
+    </div>
+
+  )
+}
+
+export default Home
+
+
+
+
+

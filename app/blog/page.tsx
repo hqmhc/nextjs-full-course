@@ -1,5 +1,6 @@
+import React from 'react';
 
-const BlogPage = () => {
+const BlogPage: React.FC = () => {
 
   return (
     <div>
