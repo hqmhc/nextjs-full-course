@@ -1,5 +1,5 @@
-
-const ContactPage = () => {
+import React from 'react';
+const ContactPage: React.FC = () => {
 
   return (
     <div>ContactPage

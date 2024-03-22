@@ -1,24 +1,29 @@
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
-const Links = () => {
-    const links = [
-        {
-            title: "Home",
-            path: "/"
-        },
-        {
-            title: "About",
-            path: "/about"
-        },
-        {
-            title: "Contact",
-            path: "/contact"
-        },
+interface LinkItem {
+    title: string;
+    path: string;
+}
 
+const Links: React.FC = () => {
+    const links: LinkItem[] = [
         {
-            title: "Blog",
-            path: "/blog"
-        }
+            title: 'Home',
+            path: '/',
+        },
+        {
+            title: 'About',
+            path: '/about',
+        },
+        {
+            title: 'Contact',
+            path: '/contact',
+        },
+        {
+            title: 'Blog',
+            path: '/blog',
+        },
     ];
 
     return (

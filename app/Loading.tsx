@@ -1,4 +1,5 @@
-const loading = () => {
+import React from 'react';
+const loading: React.FC = () => {
 
     {
         return (
