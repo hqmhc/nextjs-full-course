@@ -1,19 +1,7 @@
 
+
 const Home = () => {
+  throw new Error("Error in Home Page");
+};
 
-
-
-  return (
-    <div>
-      Homepage
-    </div>
-
-  )
-}
-
-export default Home
-
-
-
-
-
+export default Home;
