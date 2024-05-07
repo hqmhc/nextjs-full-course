@@ -2,11 +2,11 @@ import React from 'react';
 
 const ContactPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col md:flex-row">
+    <div className="min-h-screen bg-blue-900 flex flex-col md:flex-row">
       <div className="md:w-1/2 flex items-center justify-center">
         <img src="your_image_url_here" alt="Contact" className="md:max-w-lg" />
       </div>
-      <div className="md:w-1/2 bg-white p-8 shadow-md rounded-md flex items-center justify-center text-white bg-blue-800">
+      <div className="md:w-1/2 bg-blue-900 p-8 shadow-md rounded-md flex items-center justify-center text-white bg-blue-900">
         <form className="w-full text-white">
           <h1 className="text-3xl font-semibold mb-4">Contact Us</h1>
           <div className="mb-4">
